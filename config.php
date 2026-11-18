@@ -4,7 +4,7 @@ define('DB_HOST', 'localhost');
 define('DB_NAME', 'securestudentportal');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('ENC_KEY', hash('sha256', 'CHANGE_THIS_SECRET_PHRASE', true)); // key for database encryption
+define('ENC_KEY', hash('sha256', 'I_LOVE_JESUS', true)); // key for database encryption
 define('DEMO_MODE', true); // true = MFA code is shown on screen (lab has no email/SMS server)
 
 // ===== 2. SECURE SESSIONS =====
